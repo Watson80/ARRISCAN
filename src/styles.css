@@ -1,0 +1,51 @@
+.App {
+  font-family: Klavika;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-family: "Klavika";
+  color: black;
+}
+
+/* styles.css */
+
+/* Common title styles */
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Component-specific title styles */
+.componentA-title {
+  font-family: "Klavika";
+  color: blue;
+  font-size: 30px;
+}
+
+.componentB-title {
+  font-family: "Klavika";
+  color: blue;
+  font-size: 15px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  border: none;
+  background-color: #888;
+  color: #fff;
+  padding: 1px 8px; /* Adjust the padding to control the button height */
+  font-size: 14px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.button:hover {
+  background-color: #999;
+}
